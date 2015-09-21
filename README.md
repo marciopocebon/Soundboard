@@ -1,10 +1,10 @@
-# NanoSoundboard
+# Soundboard
 
 A GUI soundboard application template
 
 ## Description
 
-NanoSoundboard is a JavaFX GUI application that allows the user to play sounds by clicking buttons.
+Soundboard is a JavaFX GUI application that allows the user to play sounds by clicking buttons.
 This package comes with one sample audio file and one button. It is intended to be a template for
 creating your own soundboard.
 
