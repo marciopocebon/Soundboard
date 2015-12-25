@@ -14,7 +14,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("soundboard.fxml"));
 
         primaryStage.setTitle("NanoSoundboard");
-        primaryStage.getIcons().add(new Image("file:images/icon.png"));
+        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/images/icon.png")));
         primaryStage.setScene(new Scene(root, 300, 275));
 
         primaryStage.show();
